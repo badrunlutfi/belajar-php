@@ -48,7 +48,7 @@ do{
 
 //PERULANGAN ARRAY
 //contoh1
-/* $data = array ('Melati','Mawar','Kamboja','Lily','Asoka','Alamanda');
+/* $data = array ('Mangga','Apel','Jeruk','Pisang','Melon','Semangka');
 $i = 0;
 while ($i < count($data)) {
     echo $data[$i]."<br>";
@@ -79,14 +79,14 @@ foreach($data as $value){
 
 //PERCABANGAN
 //contoh1
-/* if($nama="Resti"){
-    echo $nama."Orang BWI ASLI";
+/* if($nama="Badrun"){
+    echo $nama."Orang Pangandaran";
 }else{
     echo"Bukan Namanya";
 } */
 //contoh2
- /*if($nama == "Rohma"){
-    echo $nama."Orang BWI ASLI";
+ /*if($nama == "Lutfi"){
+    echo $nama."Oang PAangandaran";
 }else if ($nama=="Wati"){
     echo"Berasal dari pulau Jawa";
 } else {
@@ -130,10 +130,10 @@ echo $pesan; */
         if(!empty($_POST['submit'])) {
 
             switch($_POST['nama']) {
-                case "Resti":
+                case "Badrun":
                     $pesan = $_POST['nama']." adalah orang Banyuwangi";
                 break;
-                case "Rohmawati":
+                case "Lutfi":
                     $pesan = $_POST['nama']." berasal dari pulau Jawa";
                 break;
                 default:
